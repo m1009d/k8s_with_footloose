@@ -8,7 +8,7 @@ docker network create footloose-cluster 2>/dev/null
 docker pull jakolehm/footloose-ubuntu20.04
 
 # Create docker containers
-footloose create -f footloose.yaml
+footloose create -c footloose.yaml
 
 # set up k3s on node0 as the master
 # https://computingforgeeks.com/install-kubernetes-on-ubuntu-using-k3s/
